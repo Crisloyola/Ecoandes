@@ -1,6 +1,7 @@
 "use client";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
+import Logist from "./Components/logist";
 import MoversCarousel from "./Components/MoversCarousel";
 import Navbar from "./Components/Navbar";
 import Newsletter from "./Components/Newsleeter";
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <WhyChooseUs />
       <MoversCarousel />
+      <Logist />
       <WhyChoose />
       <Testimonials />
       <Newsletter />
