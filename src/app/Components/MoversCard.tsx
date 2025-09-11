@@ -3,6 +3,7 @@
 
 import { Star } from "lucide-react";
 
+
 type ServiceCardProps = {
   city: string;
   description: string;
