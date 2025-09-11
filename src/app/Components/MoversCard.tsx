@@ -3,7 +3,6 @@
 
 import { Star } from "lucide-react";
 
-
 type ServiceCardProps = {
   city: string;
   description: string;
@@ -20,17 +19,17 @@ export default function MoversCard({
   image,
 }: ServiceCardProps) {
   return (
-    <div className="bg-white rounded-2xl  relative w-[250px]">
+    <div className="bg-white rounded-2xl relative w-full max-w-[250px] sm:max-w-[280px] md:max-w-[250px] mx-auto shadow-md transition-transform hover:scale-105">
       {/* Imagen */}
       <div className="relative">
         <img
           src={image}
           alt={city}
-          className="w-full h-64 object-cover rounded-t-2xl"
+          className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-t-2xl"
         />
 
         {/* Burbuja flotante del rating */}
-        <div className="absolute bottom-2 left-4 bg-white shadow-sm rounded-full px-3 py-1 flex items-center gap-1 text-sm font-semibold">
+        <div className="absolute bottom-2 left-4 bg-white rounded-full px-3 py-1 flex items-center gap-1 text-sm font-semibold">
           <Star className="w-4 h-4 text-yellow-500" />
           <span>
             {rating} ({reviews})
@@ -40,9 +39,11 @@ export default function MoversCard({
       </div>
 
       {/* Contenido */}
-      <div className="p-5">
-        <h3 className="text-lg font-bold">{city}</h3>
-        <p className="text-[#FFA03F] font-semibold text-sm">{description}</p>
+      <div className="p-4 sm:p-5">
+        <h3 className="text-base sm:text-lg font-bold">{city}</h3>
+        <p className="text-[#FFA03F] font-semibold text-xs sm:text-sm">
+          {description}
+        </p>
       </div>
     </div>
   );

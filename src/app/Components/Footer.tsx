@@ -1,11 +1,11 @@
 // components/Footer.tsx
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 import { FaLocationDot, FaPhone, FaEnvelope } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#FFA03F] text-white py-12">
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer  className="bg-[#FFA03F] text-white py-12">
+      <div id="contac" className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Columna 1: Texto + redes */}
         <div>
           <p className="mb-4">
@@ -13,14 +13,14 @@ export default function Footer() {
             experiencia para garantizar que tu mudanza sea rápida
           </p>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-gray-200">
+            <a href="https://www.facebook.com/TransporteEcoAndes"  className="hover:text-gray-200">
               <FaFacebookF size={20} />
             </a>
-            <a href="#" className="hover:text-gray-200">
-              <FaTwitter size={20} />
+            <a href="https://www.instagram.com/transporteymudanzas.eco_andes/" className="hover:text-gray-200">
+              <FaInstagram size={20} />
             </a>
-            <a href="#" className="hover:text-gray-200">
-              <FaLinkedinIn size={20} />
+            <a href="https://www.tiktok.com/@mudanzasecoandes" className="hover:text-gray-200">
+              <FaTiktok  size={20} />
             </a>
           </div>
         </div>

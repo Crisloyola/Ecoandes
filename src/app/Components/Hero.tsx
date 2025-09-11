@@ -22,8 +22,8 @@ export default function Hero() {
             detalle para que tu experiencia sea rápida y sin preocupaciones.
           </p>
 
-          {/* Buscador (NO cambiado, solo envuelto en responsive contenedor) */}
-          <div className="flex flex-col md:flex-row items-stretch shadow-lg rounded-[49px]  overflow-hidden w-full md:w-[690px] h-auto md:h-[100px] text-[15px] md:text-[17px] bg-white/30 backdrop-blur-lg border border-white/20">
+          {/* Buscador solo visible en md+ */}
+          <div className="hidden md:flex flex-col md:flex-row items-stretch shadow-lg rounded-[49px] overflow-hidden w-full md:w-[690px] h-auto md:h-[100px] text-[15px] md:text-[17px] bg-white/30 backdrop-blur-lg border border-white/20">
             <select className="px-4 py-3 text-[#161D38] focus:outline-none flex-1 bg-transparent mt-2">
               <option>Origen</option>
               <option>Lima</option>
@@ -54,8 +54,8 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Imágenes */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {/* Imágenes solo visibles en md+ */}
+        <div className="hidden md:grid grid-cols-2 gap-4">
           {/* Columna izquierda */}
           <div className="flex flex-col gap-4">
             <div className="flex-1 w-full h-[200px] sm:h-[280px] md:w-[240px] md:h-[327px]">
