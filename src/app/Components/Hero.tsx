@@ -17,10 +17,10 @@ export default function Hero() {
             <br /> tu mudanza <br /> más fácil
           </h1>
 
-          <p className="text-gray-600 text-sm sm:text-base md:text-lg text-[20px]">
+          <h2 className="text-gray-600 text-sm sm:text-base md:text-lg text-[20px]">
             Ofrecemos un servicio de mudanza profesional y seguro, cuidando cada
             detalle para que tu experiencia sea rápida y sin preocupaciones.
-          </p>
+          </h2>
 
           {/* Buscador solo visible en md+ */}
           <div className="hidden md:flex flex-col md:flex-row items-stretch shadow-lg rounded-[49px] overflow-hidden w-full md:w-[690px] h-auto md:h-[100px] text-[15px] md:text-[17px] bg-white/30 backdrop-blur-lg border border-white/20">

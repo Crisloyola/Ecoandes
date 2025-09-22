@@ -25,7 +25,7 @@ const services = [
     image: "/img/l2.jpeg",
   },
   {
-    id: 3,
+    id: 3,  
     city: "Eco-Andes",
     description: "Logística integral: almacén, empaque y transporte.",
     rating: 4.9,
@@ -84,10 +84,10 @@ export default function Logist() {
           <p className="text-[#FFA03F] font-semibold mb-2 text-[20px] md:text-[20px]">
             ¡Confía en expertos en  logística!
           </p>
-          <h2 className="text-5xl md:text-4xl font-bold leading-tight">
+          <h1 className="text-5xl md:text-4xl font-bold leading-tight">
             Soluciones de 
             <span className="text-[#FFA03F]"> Logística</span> para Ti
-          </h2>
+          </h1>
         </div>
 
         {/* Carrusel Responsive */}

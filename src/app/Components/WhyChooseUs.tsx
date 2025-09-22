@@ -31,9 +31,9 @@ export default function WhyChooseUs() {
         <p className="text-[#FFA03F] font-medium mb-2 text-2xl">
           ¿Por qué elegirnos?
         </p>
-        <h2 className="text-5xl font-bold mb-8 leading-snug">
+        <h1 className="text-5xl font-bold mb-8 leading-snug">
           Tu mudanza en las <br /> mejores manos
-        </h2>
+        </h1>
 
         <div className="space-y-6">
           {/* Seguridad Garantizada */}
@@ -67,7 +67,7 @@ export default function WhyChooseUs() {
           </div>
 
           {/* Precios Claros */}
-          <div className="flex gap-4 items-start">
+          <div className="flex gap-4 items-start"   >
             <div className="bg-orange-100 p-3 rounded-xl">
               <MapPin className="w-6 h-6 text-orange-500" />
             </div>

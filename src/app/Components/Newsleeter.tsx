@@ -3,9 +3,9 @@ export default function Newsletter() {
     <section className="w-full py-16 bg-white">
       <div className="max-w-[800px] mx-auto px-6 text-center">
         {/* Título */}
-        <h2 className="text-4xl md:text-4xl font-bold mb-4">
+        <h1 className="text-4xl md:text-4xl font-bold mb-4">
           Entérate primero de nuestras promociones y servicios
-        </h2>
+        </h1>
 
         {/* Descripción */}
         <p className="text-gray-600 mb-8">

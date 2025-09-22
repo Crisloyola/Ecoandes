@@ -86,9 +86,9 @@ export default function MoversCarousel() {
           <p className="text-[#FFA03F] font-semibold mb-2 text-[20px] md:text-[20px]">
             ¡Confía en expertos para tu mudanza!
           </p>
-          <h2 className="text-5xl md:text-4xl font-bold leading-tight">
+          <h1 className="text-5xl md:text-4xl font-bold leading-tight">
             Soluciones de <span className="text-[#FFA03F]">Mudanza</span> para Ti
-          </h2>
+          </h1>
         </div>
 
         {/* Carrusel Responsive */}

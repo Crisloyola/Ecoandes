@@ -8,9 +8,9 @@ export default function WhyChoose() {
             {/* Texto */}
             <div>
             <p className="text-[#FFA03F] font-semibold mb-2 text-[28px]">¿Quienes Somos?</p>
-            <h2 className="text-5xl md:text-[48px] font-bold mb-4">
+            <h1 className="text-5xl md:text-[48px] font-bold mb-4">
                 Tu Mudanza Segura <br /> y Sin Estrés
-            </h2>
+            </h1>
             <p className="text-gray-600 mb-6 text-[18px]">
                 Contamos con un equipo profesional, transporte especializado y años de experiencia 
                 para garantizar que tu mudanza sea rápida, segura y sin complicaciones. 

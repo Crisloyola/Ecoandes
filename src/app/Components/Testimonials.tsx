@@ -33,9 +33,9 @@ export default function Testimonials() {
       <div className="max-w-[1200px] mx-auto px-6">
         {/* Título */}
         <p className="text-[#FFA03F] font-medium text-[22px]">¿Por qué nos elige nuestro cliente?</p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-10">
+        <h1 className="text-3xl md:text-4xl font-bold mb-10">
           Testimonio de nuestros Clientes
-        </h2>
+        </h1>
 
         {/* Card de Testimonio cubriendo todo el ancho */}
         <div className="relative w-full">
