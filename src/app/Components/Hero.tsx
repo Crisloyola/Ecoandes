@@ -14,12 +14,12 @@ export default function Hero() {
               <span className="absolute -bottom-1 left-0 w-[8rem] sm:w-[12rem] md:w-[15rem] h-1 bg-[#FFA03F]"></span>
               <span className="relative z-10">Hacemos</span>
             </span>
-            <br /> tu mudanza <br /> más fácil
+            <br /> tu mudanza <br />más fácil en Lima
+
           </h1>
 
           <h2 className="text-gray-600 text-sm sm:text-base md:text-lg text-[20px]">
-            Ofrecemos un servicio de mudanza profesional y seguro, cuidando cada
-            detalle para que tu experiencia sea rápida y sin preocupaciones.
+            "Somos una empresa de mudanzas en Lima y Callao que ofrece un servicio profesional, seguro y económico. En EcoAndes cuidamos cada detalle de tu traslado para que tu mudanza sea rápida, confiable y sin preocupaciones."
           </h2>
 
           {/* Buscador solo visible en md+ */}

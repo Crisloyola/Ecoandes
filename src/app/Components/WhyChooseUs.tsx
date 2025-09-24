@@ -29,7 +29,7 @@ export default function WhyChooseUs() {
       {/* Texto */}
       <div className="flex flex-col justify-center">
         <p className="text-[#FFA03F] font-medium mb-2 text-2xl">
-          ¿Por qué elegirnos?
+          ¿Por qué elegir a EcoAndes para tu mudanza en Lima y Callao?
         </p>
         <h1 className="text-5xl font-bold mb-8 leading-snug">
           Tu mudanza en las <br /> mejores manos
@@ -44,8 +44,7 @@ export default function WhyChooseUs() {
             <div>
               <h3 className="font-semibold text-2xl">Seguridad Garantizada</h3>
               <p className="text-gray-600 text-base">
-                Tus pertenencias viajan protegidas con materiales de embalaje de
-                calidad y personal capacitado.
+                Tus pertenencias viajan protegidas con materiales de embalaje de alta calidad y personal experto en mudanzas.
               </p>
             </div>
           </div>
@@ -60,8 +59,7 @@ export default function WhyChooseUs() {
                 Puntualidad y Responsabilidad
               </h3>
               <p className="text-gray-600 text-base">
-                Cumplimos con los tiempos acordados para que tu mudanza sea sin
-                estrés.
+                Cumplimos los tiempos acordados para que tu mudanza en Lima o Callao sea rápida y sin estrés.
               </p>
             </div>
           </div>
@@ -74,7 +72,7 @@ export default function WhyChooseUs() {
             <div>
               <h3 className="font-semibold text-2xl">Precios Claros y Justos</h3>
               <p className="text-gray-600 text-base">
-                Cotizaciones transparentes sin costos ocultos.
+                Cotizaciones transparentes sin costos ocultos. Mudanzas económicas con la mejor relación calidad-precio
               </p>
             </div>
           </div>

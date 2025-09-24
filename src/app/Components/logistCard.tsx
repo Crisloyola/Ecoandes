@@ -3,6 +3,7 @@
 "use client";
 
 import { Star } from "lucide-react";
+import Link from "next/link";
 
 type ServiceCardProps = {
   city: string;
@@ -35,7 +36,6 @@ export default function LogistCard({
           <span>
             {rating} ({reviews})
           </span>
-          <span className="ml-1">😊</span>
         </div>
       </div>
 
@@ -45,7 +45,19 @@ export default function LogistCard({
         <p className="text-[#FFA03F] font-semibold text-xs sm:text-sm">
           {description}
         </p>
+        {/* Botón CTA */}
+        <div className="mt-4">
+          <Link
+            href="https://wa.me/51988780491?text=Hola%20quiero%20una%20cotización%20de%20mudanza"
+            target="_blank"
+            className="block w-full text-center px-4 py-2 rounded-lg bg-[#FFA03F] text-white font-semibold shadow hover:bg-[#ff8c1a] transition"
+          >
+            Cotiza
+          </Link>
+        </div>
       </div>
+
+      
     </div>
   );
 }

@@ -20,8 +20,7 @@ export default function Home() {
       <WhyChoose />
       <Testimonials />
       <Newsletter />
-      <Footer />
-
+      <Footer />  
       {/* Icono flotante de WhatsApp con animación */}
       <a
         href="https://wa.me/51988780491"
