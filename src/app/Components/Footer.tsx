@@ -1,6 +1,6 @@
 import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 import { FaLocationDot, FaPhone, FaEnvelope } from "react-icons/fa6";
-
+import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-r from-orange-500 to-[#FFA03F] text-white py-12">
@@ -58,7 +58,7 @@ export default function Footer() {
           <div className="grid grid-cols-3 gap-2">
             {["1.jpeg", "2.jpeg", "3.jpeg", "7.jpeg", "9.jpeg", "16.jpg"].map(
               (img, i) => (
-                <img
+                <Image
                   key={i}
                   src={`/img/${img}`}
                   alt={`Mudanza EcoAndes ${i + 1}`}

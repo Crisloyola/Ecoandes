@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function WhyChoose() {
   return (
     <section id="whychoose" className="w-full bg-white py-16">
@@ -46,7 +46,7 @@ export default function WhyChoose() {
         {/* Imagen */}
         <div className="flex justify-center">
           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-            <img
+            <Image
               src="/img/15.jpg"
               alt="Mudanzas en Lima - EcoAndes"
               className="w-full h-[590px] object-cover"

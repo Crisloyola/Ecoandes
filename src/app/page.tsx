@@ -8,6 +8,7 @@ import Newsletter from "./Components/Newsleeter";
 import Testimonials from "./Components/Testimonials";
 import WhyChoose from "./Components/WhyChoose";
 import WhyChooseUs from "./Components/WhyChooseUs";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
         className="fixed bottom-6 right-6 z-50 animate-bounce-custom"
         aria-label="WhatsApp"
       >
-        <img
+        <Image
           src="/img/what.svg"
           alt="WhatsApp"
           className="w-20 h-15 rounded-full hover:scale-110 transition-transform"

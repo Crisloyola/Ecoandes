@@ -4,7 +4,7 @@
 
 import { Star } from "lucide-react";
 import Link from "next/link";
-
+import Image from "next/image";
 type ServiceCardProps = {
   city: string;
   description: string;
@@ -24,7 +24,7 @@ export default function LogistCard({
     <div className="bg-white rounded-2xl relative w-full max-w-[250px] sm:max-w-[280px] md:max-w-[250px] mx-auto shadow-md transition-transform hover:scale-105">
       {/* Imagen */}
       <div className="relative">
-        <img
+        <Image
           src={image}
           alt={city}
           className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-t-2xl"
