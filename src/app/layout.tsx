@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mudanzas en Lima | EcoAndes",
+  title: "Mudanzas en Lima | EcoAndes - Servicio de mudanza rápida y segura",
   description:
-    "Ofrecemos un servicio de mudanza profesional y seguro, cuidando cada detalle para que tu experiencia sea rápida y sin preocupaciones.",
+    "EcoAndes es tu empresa de mudanzas en Lima y Callao. Transporte especializado, embalaje profesional y mudanza sin estrés. Cotiza hoy.",
   icons: {
     icon: "/img/logo.png",
   },
@@ -53,37 +53,60 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${inter.variable} antialiased`}>
-        {children}
+        <main>{children}</main>
 
         {/* LocalBusiness Schema */}
-        <Script
-          id="schema-localbusiness"
-          type="application/ld+json"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "MovingCompany",
-              name: "Mudanzas EcoAndes",
-              image: "https://www.logisticaecoandes.com/img/logo.png",
-              url: "https://www.logisticaecoandes.com/",
-              telephone: "+51 988 780 491",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Jr Luis Varelay Obergoso 218 oficina 401",
-                addressLocality: "Lima",
-                addressRegion: "Lima",
-                postalCode: "15000",
-                addressCountry: "PE",
-              },
-              openingHours: "Mo-Sa 08:00-20:00",
-              priceRange: "$$",
-              areaServed: {
-                "@type": "Place",
-                name: "Lima y Callao",
-              },
-            }),
-          }}
+          <Script
+            id="schema-localbusiness"
+            type="application/ld+json"
+            strategy="lazyOnload"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "MovingCompany",
+                "@id": "https://www.logisticaecoandes.com/#company",
+                name: "EcoAndes Mudanzas",
+                url: "https://www.logisticaecoandes.com/",
+                logo: "https://www.logisticaecoandes.com/img/logo.png",
+                image: "https://www.logisticaecoandes.com/img/logo.png",
+                description:
+                  "EcoAndes ofrece mudanzas en Lima y Callao. Transporte seguro, embalaje profesional y servicio de mudanza rápida y sin estrés.",
+                telephone: "+51 988 780 491",
+                priceRange: "$$",
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress: "Jr Luis Varelay Obergoso 218 oficina 401",
+                  addressLocality: "Lima",
+                  addressRegion: "Lima",
+                  postalCode: "15000",
+                  addressCountry: "PE",
+                },
+                openingHours: ["Mo-Sa 08:00-20:00"],
+                areaServed: [
+                  {
+                    "@type": "City",
+                    name: "Lima",
+                  },
+                  {
+                    "@type": "City",
+                    name: "Callao",
+                  },
+                ],
+                serviceOffered: {
+                  "@type": "Service",
+                  name: "Mudanzas en Lima y Callao",
+                  serviceType: "Mudanza residencial y corporativa",
+                  areaServed: {
+                    "@type": "AdministrativeArea",
+                    name: "Lima Metropolitana y Callao",
+                  },
+                },
+                sameAs: [
+                  "https://www.facebook.com/ecoandes.mudanzas",
+                  "https://www.instagram.com/ecoandes.mudanzas",
+                ],
+              }),
+            }}
         />
 
         {/* FAQ Schema */}
