@@ -9,7 +9,7 @@ import Testimonials from "./Components/Testimonials";
 import WhyChoose from "./Components/WhyChoose";
 import WhyChooseUs from "./Components/WhyChooseUs";
 import Image from "next/image";
-
+import { Analytics } from "@vercel/analytics/next";
 export default function Home() {
   return (
     <main>
@@ -22,6 +22,8 @@ export default function Home() {
       <Testimonials />
       <Newsletter />
       <Footer />  
+        {/* Analítica de Vercel */}
+      <Analytics />
       {/* Icono flotante de WhatsApp con animación */}
       <a
         href="https://wa.me/51988780491"
